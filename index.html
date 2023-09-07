@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <main>
+
+        <section>
+
+            <div class="titulo">
+                <h1>ready to launch in...</h1>
+            </div>
+
+            <div class="countdown">
+                <div class="cd-dias">
+                    <span>Dias</span>
+                    <div class="number">
+                        <p class="texto" id="dias">0</p>
+                        <p>:</p>
+                    </div>
+                </div>
+
+                <div class="cd-horas">
+                    <span>Horas</span>
+                    <div class="number">
+                        <p class="texto" id="horas">0</p>
+                        <p>:</p>
+                    </div>        
+                </div>
+
+                <div class="cd-minutos">
+                    <span>Minutos</span>
+                    <div class="number">
+                        <p class="texto" id="minutos">0</p>
+                        <p>:</p>
+                    </div>
+                </div>
+
+                <div class="cd-segundos">
+                    <span>Segundos</span>
+                    <div class="number">
+                        <p class="texto" id="segundos">0</p>
+                    </div>    
+                </div>
+            </div>
+
+            <p>Inscreva-se para saber mais sobre o lançamento</p>
+            
+            <a class="botao" id="abrir-modal" href="#">
+                <span>
+                    Inscreva-se
+                </span>
+            </a>
+
+            <div id="modal" class="modal">
+                <div class="cx-modal">
+                    <div>
+                        <h4>Inscreva-se</h4>
+                        <div class="nome">
+                            <p>Nome:</p>
+                            <input type="text"  name="nome" id="" autocomplete="off">
+                        </div>
+
+                        <div class="email">
+                            <p>Email:</p>
+                            <input type="email" name="email" id="" autocomplete="off">
+                        </div>    
+                            
+                        <div class="cx-enviar">
+                            <div class="bt-modal enviar">
+                                <p>Enviar</p>   
+                            </div>  
+                        </div>      
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="img">
+            <img src="img/rocket.svg" alt="">
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

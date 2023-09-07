@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+}
+
+/*-----*caixa principal-----*/
+main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-----conteudos-----*/
+section:nth-child(1){
+    text-align: center; 
+}
+
+/*-----titulo-----*/
+.titulo{
+    margin-left: 20px;
+    margin-bottom: 19px;
+    color: #6C63FF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.78px;
+    text-transform: uppercase;  
+}
+
+/*-----countdown-----*/
+.countdown{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*-----numeros-----*/
+.number{
+    display: flex;
+    margin-left: 20px;
+    color: #4D4C59;
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.countdown .texto{
+    margin-right: 10px;
+    width: 90px;
+}
+
+/*-----texto do countdown-----*/
+.countdown span{
+    color: #C8C8C8;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/*-----texto inscreva-se-----*/
+section > p{
+    margin-top: 46px;
+    color: #9C9AB6;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+/*-----botao inscreva-se-----*/
+.botao{
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 31px;
+    width: 160px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #6C63FF;
+}
+
+/*---hover botao---*/
+
+.botao:hover{
+    background: #3c388f;
+}
+/*---texto botao---*/
+.botao span {
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+/*-----imagem direita-----*/
+.img{
+    margin-left: 82px;
+}
+
+
+/*-----modal para se inscrever-----*/
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 120px 50px;
+    width: 620px;
+    height: 470px;
+    background-color: #FFF;
+    border-radius: 5%;
+}
+
+.cx-modal{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 470px;
+    background-color: #6b63ffde;
+    border-radius: 5%;
+
+}
+
+/*-----titulo modal-----*/
+.cx-modal h4{
+    margin-bottom: 30px;
+    color: #e4e4e4;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.78px;
+    text-transform: uppercase; 
+
+}
+
+/*-----caixa input-----*/
+.modal .nome, .mofal .email{
+    display: inline-block;
+    width: 310px;
+}
+
+/*-----texto nome e email input-----*/
+.modal .nome p, .modal .email p{
+    display: flex;
+    flex-shrink: 0;
+    color: #e4e4e4;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/*-----caixa input nome e email-----*/
+.modal .nome input, .modal .email input{
+    padding-left: 20px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    background: #e4e4e4;
+    border: none;
+    flex-shrink: 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+/*---caixa input hover---*/
+.modal .nome input:focus, .modal .email input:focus{
+    padding-left: 20px;
+    border: none;
+    background-color: #dddd;
+    flex-shrink: 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+/*-----caixa botao enviar-----*/
+.cx-enviar{
+    display: flex;
+    justify-content: center;
+}
+
+/*---botao enviar---*/
+.bt-modal{
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 31px;
+    width: 200px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #e4e4e4;
+}
+
+/*---hover botao enviar---*/
+.bt-modal:hover{
+    background-color: #dddd;
+}
+
+
+/*---texto do botao enviar---*/
+.modal p{
+    flex-shrink: 0;
+    color: #6C63FF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
