@@ -1,7 +1,5 @@
 # Desafio "Countdown" rocketseat
 
-# Desafio "Sidebar" rocketseat
-
 ## 📋 Índice
 
 - [Sobre](#-Sobre)
@@ -11,7 +9,7 @@
 
 ## 🖥 Preview 
 
-
+https://github.com/Scobin12/desafio-countdown/assets/57958764/00c782b8-bef9-486d-acf5-94bf710e55e9
 
 ---
 
